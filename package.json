@@ -1,0 +1,31 @@
+{
+  "name": "who_broke_the_build",
+  "version": "1.0.0",
+  "description": "CLI Dev Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" :
+  { 
+    "type" : "git", 
+    "url" : "https://github.com/codelikeachicken/whobrokethebuild.git"
+  },
+  "keywords": [
+    "CLI",
+    "Dev",
+    "Tool"
+  ],
+  "author": "Michelle Edmondson @ Code Like a Chicken",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "lunr": "^2.2.1",
+    "watch": "^1.0.2"
+  },
+  "preferGlobal": true,
+  "bin": {
+      "who_broke_the_build": "./bin/index.js"
+  }
+}
